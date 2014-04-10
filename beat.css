@@ -18,6 +18,8 @@ h1 {
 	text-align: center; 
 	padding-top: 200;
 	font-family: 'Henny Penny', cursive;
+	color: rgba(165, 25, 25, 1);
+	font-size: 40;
 }
 /*
 .heart {
