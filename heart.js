@@ -39,6 +39,25 @@ var myCanvas = document.createElement('canvas');
 
 }
 
+
+function sketch(p) {
+  function setup(){
+    p.size(1000,1000);
+    p.background(255, 255, 255);
+  }
+
+  function draw() {
+    ellipseMode (CENTER);
+    ellipse(10,10,12,14);
+
+  }
+  p.setup = setup;
+  p.draw = draw;
+
+}
+
+var p = new Processing(canvas, sketch); 
+
 /*
 ARDUINO test code:
 // Pulse Monitor Test Script
@@ -66,3 +85,27 @@ void loop ()
     delay (period);
 }
 */
+
+var ledPin = 13;
+var sensorPin = 0;
+//double alpha = 0.75;
+var period = 20;
+//double change = 0.0;
+function setup ()
+{
+  pinMode (ledPin, OUTPUT);
+  Serial.begin (115200);
+}
+function loop ()
+{
+    static double oldValue = 0;
+    static double oldChange = 0;
+    int rawValue = analogRead (sensorPin);
+    double value = alpha * oldValue + (1 - alpha) * rawValue;
+    
+    console.log (rawValue);
+    console.log  (",");
+    console.log  (value);
+    oldValue = value;
+    delay (period);
+}
