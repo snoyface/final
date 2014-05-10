@@ -9,3 +9,9 @@ For the Final:
 
 1: (if) heart beat monitor works, then hopefully I can make the whole project work for next week in a workable format. If not, 
 then at least make everything work that I can and "fake" the heartbeat and be able to show that at least. 
+
+Saturday edit:
+
+We have decided that the best course of action would be to have a Json importer in Quartz Composer take the data from the beaglebone 
+and input it so I can use it for Quartz. Currently trying to setup a simple Json server to send data to Quartz which it
+can be listening for. This will take the culled down heartbeat data and apply it to the visual images I use in QUartz to create it. 
