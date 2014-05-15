@@ -15,3 +15,18 @@ Saturday edit:
 We have decided that the best course of action would be to have a Json importer in Quartz Composer take the data from the beaglebone 
 and input it so I can use it for Quartz. Currently trying to setup a simple Json server to send data to Quartz which it
 can be listening for. This will take the culled down heartbeat data and apply it to the visual images I use in QUartz to create it. 
+
+
+Final class:
+pros:
+I was able to make the sensor connect to the beaglebone, and receive data. I was also able to make a quartz composer patch that would
+take my heartbeat data and disply a color wave. 
+
+cons:
+I was not able to connect the beaglebone via a JSON server to the computer though, and this has remained a challenge. I do not
+like providing excuses, but I will admit my mind this last week has been occupied since I had 2 friends pass away. 
+
+I am happy to report though that this project will see its day in the sun, I would like to continue this project and display
+it as public art in the future, potentially on the greenway in Boston. I have the means to do this, and creating the
+project is something I know will occur. I will likely ask for addtional help when I come back and would like help create this 
+in fruition. 
