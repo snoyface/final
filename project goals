@@ -30,3 +30,23 @@ I am happy to report though that this project will see its day in the sun, I wou
 it as public art in the future, potentially on the greenway in Boston. I have the means to do this, and creating the
 project is something I know will occur. I will likely ask for addtional help when I come back and would like help create this 
 in fruition. 
+
+
+Final submission: 
+
+This class has been great, and I have done all I can to make this work in the time period of the class, unfortunately I still 
+have to work on the JSON server to make it work correctly, but I will be working on this while in Europe. The heartbeat sensor
+section works, and I am happy with the result. I have pushed out examples of the Art piece, and of the mapped projection
+piece for your review. I expect this art piece to make its way to the Greenway next summer and I will be working on various
+parts of it till then to make it production worthy. As the Public is the final client for this piece, it needs to be easy
+to comprehend as well as universally designed to allow all people of all types to interact with it. I will be creating 
+the podium (where the beaglebone will be located) to be able to reached by both children and people in wheelchairs. Also 
+upon further research, I believe I will be using a differnt heart beat monitor to interact with the crowd (the first oen did
+not work (as we know) and I need it to be easy to use. There is one made by adafruit that likely will be in use later on. 
+The only issue I currently still have is the process to use the JSON server to connect with my computer, but this I consider a
+challenge I am excited for. 
+
+Thank you again for help with this project, and unfortunately I will not be able to make it to the dinner since I will not
+be here next week. I would hope I can still ask you questions about this project as I have them to further it if I get stuck.
+
+Thank you again. 
